@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Green Goal Widget</title>
 
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="widget" id="widget">
+
+  <div class="complete-overlay"></div>
+  <div class="complete-text">GOAL REACHED 🔥</div>
+
+  <div class="inner">
+
+    <div class="header">
+
+      <div class="goal-label" id="goalLabel">
+        Monthly Goal
+      </div>
+
+      <div class="amounts">
+        <span id="currentAmt">€0</span>
+        &nbsp;/&nbsp;
+        <span id="goalAmt">€500</span>
+      </div>
+
+    </div>
+
+    <div class="track">
+      <div class="fill" id="fill"></div>
+    </div>
+
+    <div class="milestones" id="milestones"></div>
+
+    <div class="footer">
+
+      <div class="pct" id="pct">
+        0%
+      </div>
+
+      <div class="recent-label">
+        <span class="recent-name" id="recentName">—</span>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script src="widget.js"></script>
+
+</body>
+</html>
